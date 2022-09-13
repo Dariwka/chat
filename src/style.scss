@@ -1,0 +1,94 @@
+.formContainer {
+  background-color: #ca72e5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .formWrapper {
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    .logo {
+      color: #7f02a5;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .title {
+      color: #7f02a5;
+      font-size: 12px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      input {
+        padding: 15px;
+        border: none;
+        border-bottom: 1px solid #ca72e5;
+        width: 250px;
+        &::placeholder {
+          color: #afafaf;
+        }
+      }
+      button {
+        background-color: #ca72e5;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #9d52b4;
+        font-size: 12px;
+        cursor: pointer;
+
+        img {
+          width: 32px;
+        }
+      }
+    }
+    p {
+      color: #7f02a5;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.home {
+  background-color: #ca72e5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+
+    .sidebar {
+      flex: 1;
+      background-color: #45035a;
+    }
+    .chat {
+      flex: 2;
+    }
+  }
+}
