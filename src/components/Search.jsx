@@ -1,7 +1,22 @@
 import React from "react";
 
 const Search = () => {
-  return <div>Search</div>;
+  return (
+    <div className="search">
+      <div className="searchForm">
+        <input type="text" placeholder="Find a user" />
+      </div>
+      <div className="userChat">
+        <img
+          src="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+          alt=""
+        />
+        <div className="userChatInfo">
+          <span>Jane</span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Search;
