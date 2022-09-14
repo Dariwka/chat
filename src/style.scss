@@ -16,9 +16,10 @@
   }
 }
 $darkColor: #52016b;
+$backgroundColor: #ca72e5;
 
 .formContainer {
-  background-color: #ca72e5;
+  background-color: $backgroundColor;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -52,14 +53,14 @@ $darkColor: #52016b;
       input {
         padding: 15px;
         border: none;
-        border-bottom: 1px solid #ca72e5;
+        border-bottom: 1px solid $backgroundColor;
         width: 250px;
         &::placeholder {
           color: #afafaf;
         }
       }
       button {
-        background-color: #ca72e5;
+        background-color: $backgroundColor;
         color: white;
         padding: 10px;
         font-weight: bold;
@@ -88,7 +89,7 @@ $darkColor: #52016b;
 }
 
 .home {
-  background-color: #ca72e5;
+  background-color: $backgroundColor;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -280,7 +281,7 @@ $darkColor: #52016b;
           width: 100%;
           border: none;
           outline: none;
-          color: #52016b;
+          color: $darkColor;
           font-size: 18px;
 
           &::placeholder {
