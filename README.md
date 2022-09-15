@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Chat App "DiDi chat"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Chat application that use React, Nodejs, Sass, Firebase
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+[![github-follow](https://img.shields.io/github/followers/imbingz?label=Follow&logoColor=purple&style=social)](https://github.com/Dariwka)
+[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![node.js](https://img.shields.io/node/v/c?color=pink)](https://nodejs.org/en/)
+[![npm](https://img.shields.io/npm/v/npm?color=blue&logo=npm)](https://www.npmjs.com/package/inquirer)
 
-### `npm start`
+## Table of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Chat App "DiDi chat"](#chat-app-didi-chat)
+  - [Table of Content](#table-of-content)
+  - [Project Links](#project-links)
+        - [Deployed Link: https://didichat.netlify.app](#deployed-link-httpsdidichatnetlifyapp)
+        - [GitHub Repo link: https://github.com/Dariwka/chat](#github-repo-link-httpsgithubcomdariwkachat)
+  - [Screenshots-Demo](#screenshots-demo)
+  - [Project Objective](#project-objective)
+  - [User Story](#user-story)
+  - [Technologies](#technologies)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#tests)
+  - [Authors Contact](#authors-contact)
+  - [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#
 
-### `npm test`
+## Project Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Deployed Link: https://didichat.netlify.app
 
-### `npm run build`
+##### GitHub Repo link: https://github.com/Dariwka/chat
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots-Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- To build a responsive fully functional Ecommerce application that allows the buyers/users to select items, to choose prices according the day's quantity, to place an order and complete payment.
 
-### `npm run eject`
+## User Story
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As a seller/user, I want to have a chat application that allows me to communicate with my friends. As user I can registere with my name, email, password and upload my photo. I can login and I can find my friends by name, I can send them messages and upload and send img. It will be bonus to add to chat more friends and to use video camera.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+Frontend: Reactjs
+Backend: node.js, Firebase
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Other tools: Sass
+```
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Access to GitHub.com and a code editor such as vscode is necessary. Click the GitHub link provided above to the APP REPO. Click on the green button that says Clone or Download and Choose how you would like to download: using the SSH/HTTPS keys or download the zip file. If using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. If using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+In order to use this APP, you need terminal (mac: pre-installed) or gitbash (pc: must be installed). You also need to download and install [node.js](https://nodejs.org/en/) and [npm](www.npmjs.com) or [yarn](https://yarnpkg.com/) package manager. Open the cloned REPO in your favorite code editor, and then in terminal, enter the command “npm i“ or “yarn add” to install the dependencies. You will also need to signup for a free account at [firebase.google.com](https://firebase.google.com/). In addition, make sure to create a .env file on the project root, and input your own keys.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tests
 
-### Analyzing the Bundle Size
+npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors Contact
 
-### Making a Progressive Web App
+Contact the authors with any questions!<br>
+Github link: [Dariwka](https://github.com/Dariwka)<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Email: diana.korotkevica@gmail.com
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</i></p>
