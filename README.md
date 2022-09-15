@@ -36,6 +36,11 @@ Chat application that use React, Nodejs, Sass, Firebase
 
 ## Screenshots-Demo
 
+https://user-images.githubusercontent.com/77488950/190497639-e8a2f64f-36ae-4134-a569-ca1fdc8af260.mp4
+
+https://user-images.githubusercontent.com/77488950/190497800-aff91905-db87-420a-83a5-975836d06648.mp4
+
+
 ## Project Objective
 
 - To build a responsive fully functional Ecommerce application that allows the buyers/users to select items, to choose prices according the day's quantity, to place an order and complete payment.
