@@ -17,6 +17,14 @@
 }
 $darkColor: #52016b;
 $backgroundColor: #ca72e5;
+$whiteColor: white;
+$logoColor: #3d3333;
+$navBarColor: #270332;
+$chatNavColor: #8308a8;
+$messageContainerColor: #f2e0f8;
+$messageFriendColor: #0f00b0;
+$messageOwnColor: #ef0505;
+$friendNameColor: pink;
 
 .formContainer {
   background-color: $backgroundColor;
@@ -26,7 +34,7 @@ $backgroundColor: #ca72e5;
   justify-content: center;
 
   .formWrapper {
-    background-color: white;
+    background-color: $whiteColor;
     padding: 20px 60px;
     border-radius: 10px;
     display: flex;
@@ -35,13 +43,13 @@ $backgroundColor: #ca72e5;
     align-items: center;
 
     .logo {
-      color: #7f02a5;
+      color: $logoColor;
       font-weight: bold;
       font-size: 24px;
     }
 
     .title {
-      color: #7f02a5;
+      color: $logoColor;
       font-size: 12px;
     }
 
@@ -56,12 +64,12 @@ $backgroundColor: #ca72e5;
         border-bottom: 1px solid $backgroundColor;
         width: 250px;
         &::placeholder {
-          color: #afafaf;
+          color: $chatNavColor;
         }
       }
       button {
         background-color: $backgroundColor;
-        color: white;
+        color: $whiteColor;
         padding: 10px;
         font-weight: bold;
         border: none;
@@ -81,7 +89,7 @@ $backgroundColor: #ca72e5;
       }
     }
     p {
-      color: #7f02a5;
+      color: $logoColor;
       font-size: 12px;
       margin-top: 10px;
     }
@@ -96,7 +104,7 @@ $backgroundColor: #ca72e5;
   justify-content: center;
 
   .container {
-    border: 1px solid white;
+    border: 1px solid $whiteColor;
     border-radius: 10px;
     width: 65%;
     height: 80%;
@@ -113,11 +121,11 @@ $backgroundColor: #ca72e5;
       .navbar {
         display: flex;
         align-items: center;
-        background-color: #270332;
+        background-color: $navBarColor;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
-        color: #f2e0f8;
+        color: $whiteColor;
         .logo {
           font-weight: bold;
           @include tablet {
@@ -154,7 +162,7 @@ $backgroundColor: #ca72e5;
           input {
             background-color: transparent;
             border: none;
-            color: white;
+            color: $whiteColor;
             outline: none;
 
             &::placeholder {
@@ -168,11 +176,11 @@ $backgroundColor: #ca72e5;
         display: flex;
         align-items: center;
         gap: 10px;
-        color: white;
+        color: $whiteColor;
         cursor: pointer;
 
         &:hover {
-          background-color: #270332;
+          background-color: $navBarColor;
         }
         img {
           width: 50px;
@@ -198,12 +206,12 @@ $backgroundColor: #ca72e5;
 
       .chatInfo {
         height: 50px;
-        background-color: #8a05b2;
+        background-color: $chatNavColor;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        color: lightgray;
+        color: $friendNameColor;
       }
       .chatIcons {
         display: flex;
@@ -215,7 +223,7 @@ $backgroundColor: #ca72e5;
         }
       }
       .messages {
-        background-color: #f2e0f8;
+        background-color: $messageContainerColor;
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
@@ -245,10 +253,11 @@ $backgroundColor: #ca72e5;
             gap: 10px;
 
             p {
-              background-color: white;
+              background-color: $messageOwnColor;
               padding: 10px 20px;
               border-radius: 0px 10px 10px 10px;
               max-width: max-content;
+              color: $whiteColor;
             }
 
             img {
@@ -261,8 +270,8 @@ $backgroundColor: #ca72e5;
             .messageContent {
               align-items: flex-end;
               p {
-                background-color: #8a05b2;
-                color: white;
+                background-color: $messageFriendColor;
+                color: $whiteColor;
                 border-radius: 10px 0px 10px 10px;
               }
             }
@@ -271,7 +280,7 @@ $backgroundColor: #ca72e5;
       }
       .input {
         height: 50px;
-        background-color: white;
+        background-color: $whiteColor;
         padding: 10px;
         display: flex;
         align-items: center;
@@ -301,7 +310,7 @@ $backgroundColor: #ca72e5;
           button {
             border: none;
             padding: 10px 15px;
-            color: white;
+            color: $whiteColor;
             background-color: #9d52b4;
           }
         }

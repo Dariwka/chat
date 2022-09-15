@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import {
   BrowserRouter as Router,
   Route,
-  BrowserRouter,
   Routes,
   Navigate,
 } from "react-router-dom";
@@ -23,7 +22,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/">
           <Route
@@ -38,7 +37,7 @@ function App() {
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
