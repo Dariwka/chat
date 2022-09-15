@@ -6,10 +6,14 @@ const Message = ({ message }) => {
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
-  const ref = useRef();
+  const messagesEndRef = useRef(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+    scrollToBottom();
   }, [message]);
 
   return (
@@ -27,7 +31,7 @@ const Message = ({ message }) => {
         />
         <span>Just now</span>
       </div>
-      <div className="messageContent">
+      <div className="messageContent" ref={messagesEndRef}>
         <p>{message.text}</p>
         {message && <img src={message.img} alt="" />}
       </div>

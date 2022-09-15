@@ -22,9 +22,11 @@ $logoColor: #3d3333;
 $navBarColor: #270332;
 $chatNavColor: #8308a8;
 $messageContainerColor: #f2e0f8;
-$messageFriendColor: #0f00b0;
-$messageOwnColor: #ef0505;
-$friendNameColor: pink;
+$messageOwnColor: #c51676;
+$messageFriendColor: #0397c9;
+$friendNameColor: #06f1f0;
+$ownNameColor: #ff2ca6;
+$logoutButton: #d147fb;
 
 .formContainer {
   background-color: $backgroundColor;
@@ -43,7 +45,7 @@ $friendNameColor: pink;
     align-items: center;
 
     .logo {
-      color: $logoColor;
+      color: $messageFriendColor;
       font-weight: bold;
       font-size: 24px;
     }
@@ -68,7 +70,7 @@ $friendNameColor: pink;
         }
       }
       button {
-        background-color: $backgroundColor;
+        background-color: $darkColor;
         color: $whiteColor;
         padding: 10px;
         font-weight: bold;
@@ -125,7 +127,7 @@ $friendNameColor: pink;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
-        color: $whiteColor;
+        color: $ownNameColor;
         .logo {
           font-weight: bold;
           @include tablet {
@@ -144,7 +146,7 @@ $friendNameColor: pink;
           object-fit: cover;
         }
         button {
-          background-color: #8a05b2;
+          background-color: $logoutButton;
           color: #f2e0f8;
           font-size: 10px;
           border: none;
@@ -226,7 +228,7 @@ $friendNameColor: pink;
         background-color: $messageContainerColor;
         padding: 10px;
         height: calc(100% - 160px);
-        overflow: scroll;
+        overflow: overlay;
 
         .message {
           display: flex;
@@ -253,7 +255,7 @@ $friendNameColor: pink;
             gap: 10px;
 
             p {
-              background-color: $messageOwnColor;
+              background-color: $messageFriendColor;
               padding: 10px 20px;
               border-radius: 0px 10px 10px 10px;
               max-width: max-content;
@@ -270,7 +272,7 @@ $friendNameColor: pink;
             .messageContent {
               align-items: flex-end;
               p {
-                background-color: $messageFriendColor;
+                background-color: $messageOwnColor;
                 color: $whiteColor;
                 border-radius: 10px 0px 10px 10px;
               }
